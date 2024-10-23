@@ -48,7 +48,20 @@ To install SafeTravels, follow these steps:
 | Task Assignments        | Assign travel tasks to companions | Notifications         |
 | Group Messaging         | Communicate within the travel group | In-app messaging      |
 
-
+### Generating Reports
+To generate a travel budget report:
+```json
+{
+  "destination": "Paris, France",
+  "total_expenses": 1500,
+  "budget_goal": 2000,
+  "expenses_breakdown": {
+    "accommodation": 700,
+    "food": 300,
+    "transportation": 200,
+    "activities": 300
+  }
+}
 ```
 
 ## Troubleshooting
@@ -57,6 +70,13 @@ To install SafeTravels, follow these steps:
 - **Missing Travel Alerts**: Check that notifications are enabled in your device settings.
 
 ## Advanced Usage
+
+### Scripting
+You can use scripting to automate certain tasks within SafeTravels, such as generating a daily report of activities:
+```sh
+#!/bin/bash
+echo "Generating daily activity report for SafeTravels"
+```
 
 ### Integrations
 | Application Name | Description                        | Website Link                         |
@@ -69,12 +89,16 @@ To install SafeTravels, follow these steps:
 - [Travel Safety Tips](https://www.travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-checklist.html)
 - [Budget Planning Guide](https://www.investopedia.com/articles/pf/08/budgeting-save-money.asp)
 
----\--
+---
+
+![SafeTravels Screenshot](safetravels_screenshot.png "Placeholder image showcasing the SafeTravels user interface")
+
+---
 
 Travel smarter and safer with SafeTravels! Your journeys are about to become stress-free and well-coordinated. ✈️ 😊
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY1OTQxOTcsLTE1NjcwODkwMjVdfQ
-==
+eyJoaXN0b3J5IjpbLTE1NjcwODkwMjUsLTEzNDY1OTQxOTcsLT
+E1NjcwODkwMjVdfQ==
 -->
